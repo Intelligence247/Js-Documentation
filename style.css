@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration-line: none;
+    color: black;
+    padding-bottom: 1rem;
+    color: rgba(0, 0, 0, 0.750);
+    font-size: larger;
+    margin-left: 2rem;
+}
+
+main.overall {
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 20rem 1fr;
+}
+
+
+
+.asideleft {
+    border-right-color: rgba(0, 0, 0, 0.600);
+    border-right: 2px solid black;
+    color: rgba(0, 0, 0, 0.750);
+    padding-bottom: 4rem;
+}
+
+.asideleft h1 {
+    padding: 1.5rem;
+}
+
+.asideright {
+    padding: 2.5rem 4rem 7rem;
+    overflow-y: auto;
+}
+
+.sidelinks {
+    overflow-y: auto;
+    height: 90vh;
+}
+
+.sidelinks p {
+    border-bottom: 1px solid black;
+    padding: .75rem 0;
+}
