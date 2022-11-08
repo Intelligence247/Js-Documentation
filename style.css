@@ -2,7 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    --color: #f7f7f7;
+    color: #4d4e53;
+    font-family: "Open Sans", Arial, sans-serif;
+    ;
+    font-weight: 400;
+    font-size: 16px;
 }
+
+h1 {
+    font-size: 1.5rem
+}
+
 
 a {
     text-decoration-line: none;
@@ -20,7 +31,9 @@ main.overall {
     grid-template-columns: 20rem 1fr;
 }
 
-
+.sidelinks p:first-child {
+    border-top: 1px solid black;
+}
 
 .asideleft {
     border-right-color: rgba(0, 0, 0, 0.600);
@@ -34,16 +47,173 @@ main.overall {
 }
 
 .asideright {
-    padding: 2.5rem 4rem 7rem;
+    padding: 2.5rem 4rem 1rem;
     overflow-y: auto;
 }
 
 .sidelinks {
     overflow-y: auto;
     height: 90vh;
+    margin-bottom: 0rem;
+
 }
 
 .sidelinks p {
     border-bottom: 1px solid black;
     padding: .75rem 0;
+}
+
+h1,
+p,
+li {
+    padding-bottom: 1.5rem;
+    line-height: 1.5rem;
+}
+
+li {
+    margin-left: 3rem;
+}
+
+.asideright p,
+.asideright li {
+    font-size: 15px;
+}
+
+.asideright h1 {
+    color: black;
+}
+
+.diff {
+    margin-bottom: 2rem;
+}
+
+.diff,
+.two,
+.three,
+.four {
+    background-color: var(--color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: monospace;
+    font-weight: 400;
+    height: 3rem;
+    padding: 0;
+    line-height: 0.5rem;
+    padding-left: 1rem;
+    border-radius: 5px;
+
+}
+
+.diff p,
+p.diff {
+    font-size: 12px;
+    margin-bottom: 0;
+    line-height: 0;
+    font-family: monospace;
+
+}
+
+.two {
+    font-family: monospace;
+    height: 6rem;
+}
+
+.three {
+    font-family: monospace;
+    height: 7.3rem;
+}
+
+.four {
+    font-family: monospace;
+    height: 9rem;
+}
+
+u {
+    color: blue;
+    cursor: pointer;
+}
+
+@media (max-width:640px) {
+    :root {
+        font-size: 10px;
+    }
+
+    .asideright {
+        padding: 1rem 2rem 1rem;
+    }
+
+    .asideright p,
+    .asideright li,
+    u {
+        font-size: 6px;
+    }
+
+    main.overall {
+        grid-template-columns: 10rem 1fr;
+    }
+
+    .sidelinks p {
+        border-bottom: 0.5px solid #4d4e53;
+        padding: 0;
+    }
+
+
+    a {
+        text-decoration-line: none;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        font-size: 5px;
+        margin-left: 0.3rem;
+    }
+
+    .asideleft {
+        border-right: 1px solid #4d4e53;
+        padding-bottom: 4rem;
+    }
+
+    .asideleft h1 {
+        padding: 2px;
+        font-size: 10px;
+    }
+
+    h1 {
+        font-size: 10px;
+    }
+
+    h1,
+    p,
+    li {
+        padding-bottom: 0.7rem;
+        line-height: 0.8rem;
+    }
+
+    li {
+        margin-left: 2rem;
+    }
+
+    .diff p,
+    p.diff {
+        font-size: 4px;
+        margin-bottom: 0;
+        line-height: 0;
+        font-family: monospace;
+
+    }
+
+    .one {
+        height: 1.7rem;
+    }
+
+    .two {
+        height: 3rem;
+    }
+
+    .three {
+        height: 4rem;
+    }
+
+    .four {
+        height: 5rem;
+    }
 }
