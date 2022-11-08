@@ -22,7 +22,7 @@ Clone or download this repository and run with a local server of open `index.htm
 - Html
 - Css
 ## Preview here
-[Demo]()
+[Demo](https://rawcdn.githack.com/Intelligence247/Js-Documentation/4ff06134f04badc82c15daed19c001ceeec04ba3/index.html)
 
 ![screenshot](./media/sketch1.png)
 ![screenshot](./media/sketch2.png)
@@ -33,5 +33,5 @@ If you want to contact me you can reach me at
 - https://github.com/Intelligence247 or
 - uthmanabdullahi2020@gmail.com
 ## Addtional Info
-- This is one of the series of project for the @FreecodeCamp responsive web design
+- This is one of the series of project for the @CodeVillage.org 
 - This is not meant for production. It's for learning purpose only
